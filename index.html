@@ -1,106 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarea 1 Desarrollo Web</title>
-    <style>
-        .etiquetaDiv {
-            width: 80%;
-            margin: 0 auto;
-            text-align: center;  
-        }
-        .titleDiv{
-            background-color: rgb(223, 208, 9);
-            padding: 20px;
-        }
-
-        .main-content{
-            background-color: rgb(73, 177, 41);
-            padding: 40px;   
-        }
-
-        .etiquetasection {
-            width: 80%;
-            margin: 0 auto;
-            text-align: center; 
-        }
-
-        .etiquetasection1{
-            background-color: rgb(18, 133, 148);
-            padding: 40px;   
-        }
-        .titleh1{
-            width: 80%;
-            margin: 0 auto;
-            text-align: center;  
-        }
-        .titleh2{
-            width: 80%;
-            margin: 0 auto;
-            text-align: center;
-        }
-        .formaction{
-            width: 80%;
-            margin: 0 auto;
-            text-align: center; 
-        }
-    </style>    
+    <title>Seguridad Total</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
     <header>
-        <h1>Mi sitio Web (Tarea No.1_Desarrollo Web)</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
-    <h2>En esta tarea vamos a utilizar las siguientes Etiquetas: </h2>
-    <main>
-    <DIV class="etiquetaDiv">
-        <div class="titleDiv">
-            <h1>Etiqueta DIV</h1>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Bienvenido a </h1>
+            <p>Tu experto en venta e instalación de cámaras de seguridad.</p>
+            <a href="contacto.html" class="btn">Contacta con nosotros</a>
         </div>
-
-        <div class="main-content">
-            <p>La etiqueta div es un elemento de bloque HTML que se utiliza para crear un contenedor de contenido en una página web.  </p>
-            <p>La princiopal funcion de la etiqueta div es organizar y agrupar elementos dentro de una página web para darle una estructura clara y estética.  </p>
+    </section>
+    <section class="about">
+        <div class="about-content">
+            <h2>Sobre Nosotros</h2>
+            <p>Información breve sobre tu negocio, experiencia y valores.</p>
         </div>
-
-    </DIV>
-
-    <section class="etiquetasection">
-            <h1>Etiqueta SECTION</h1>
     </section>
-
-    <section class="etiquetasection1" >
-            <p>La etiqueta Section se utiliza para identificar una seccion distinta y coherente en un documento HTML.
-    </section>
-
-    <div class="titleh1">
-        <h1>Etiqueta H1</h1>
-        <p>H1 es una etiqueta de encabezado en HTML5 que se utiliza para definir el título principal de una página web </p>
-    </div>
-
-    <div class="titleh2">
-        <h2>Etiqueta H2</h2>
-        <p>H2 es una etiqueta de encabezado en HTML5 que se utiliza para definir subtitulos secundarios debajo del título principal</p>
-    </div>
     <form class="formaction">
         <h1>Etiqueta FORM</h1>
         <fieldset>
-            <legend>Información Personal</legend>
+            <legend>Contactanos</legend>
             <label>nombre:</label><br>
             <input type="text"><br>
-
             <label>email:</label><br>
             <input type="email"><br>
             
         </fieldset>
-
     </form>
-    </main>
     <footer>
-        <p>Todos los derechos reservados.</p>
+        <p>Derechos de autor © 2024 | Nombre de tu Negocio</p>
     </footer>
 </body>
-
 </html>
